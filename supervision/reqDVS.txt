@@ -1,0 +1,13 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:int="http://www.dictao.com/DVS/Interface">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <int:verifySignatureEx>
+         <int:requestId>TEST</int:requestId>
+         <int:transactionId>TOTO</int:transactionId>
+         <int:refreshCRLs>1</int:refreshCRLs>
+         <int:signature>
+            <int:binaryValue dataFormat="1">G3XPht</int:binaryValue>
+         </int:signature>
+      </int:verifySignatureEx>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:int="http://www.dictao.com/D2S/Interface">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <int:signatureEx>
+         <int:requestId>TEST</int:requestId>
+         <int:transactionId>TOTO</int:transactionId>
+         <int:tag>TEST</int:tag>
+      
+         <int:dataToSign>
+            <int:binaryValue dataFormat="1">1</int:binaryValue>
+         </int:dataToSign>
+      
+         <int:signatureFormat>E</int:signatureFormat>
+         <int:signatureType>E</int:signatureType>
+
+      </int:signatureEx>
+   </soapenv:Body>
+</soapenv:Envelope>
